@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preisvergleich in Bochum</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <h1>🛒 Preisvergleich in Bochum</h1>
+  <div id="map" style="height: 400px;"></div>
+
+  <form id="price-form">
+    <label>Produkt 1 (z. B. Brot): <input type="number" step="0.01" name="produkt1" required /></label>
+    <label>Bild hochladen: <input type="file" accept="image/*" /></label>
+    <button type="submit">Absenden</button>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+</html>

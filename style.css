@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+h1 {
+  color: #002b49; /* RUB-Blau */
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, button {
+  padding: 5px;
+  margin-top: 5px;
+}
